@@ -1,0 +1,260 @@
+.thumb-container {
+	width: 100%;
+	height: 100vh;
+	min-height: 80rem;
+	padding-top: 9rem;
+
+	@media only screen and (min-width: 1038px) {
+		.task-container {
+			margin: 0 auto;
+			width: 1024px;
+			height: 1100px;
+			background-color: white;
+			text-align: center;
+
+			.title {
+				text-shadow: rgb(0 0 0 / 40%) 2px 2px 4px;
+				padding-top: 4rem;
+				font-size: 3rem;
+				font-weight: 800;
+			}
+
+			.thumbnail {
+				margin: 0 auto;
+				height: 402px;
+				width: 768px;
+				margin-top: 5rem;
+				overflow: hidden;
+				font-weight: 400;
+
+				.thumb-title1 {
+					position: relative;
+					width: 768px;
+					text-align: center;
+					font-size: 2.68rem;
+					padding-top: 7rem;
+					word-break: keep-all;
+				}
+				.thumb-title2 {
+					position: relative;
+					display: inline-block;
+					border-top: 2px solid black;
+					margin-top: 1.5rem;
+					padding-top: 0.5rem;
+					text-align: center;
+					word-break: keep-all;
+					font-size: 1.5rem;
+				}
+				.thumb-title3 {
+					width: 768px;
+					position: relative;
+					margin-top: 7rem;
+					text-align: center;
+					font-size: 1.1rem;
+					word-break: keep-all;
+				}
+			}
+
+			.input-box {
+				margin: 0 auto;
+				width: 75%;
+				padding-top: 2.5rem;
+				padding-bottom: 1.5rem;
+				border-bottom: 1px solid gray;
+				input {
+					width: 26%;
+					height: 2rem;
+					border-radius: 8px;
+					margin-left: 1rem;
+					margin-right: 1rem;
+					padding-left: 1rem;
+				}
+			}
+
+			.setting {
+				height: 40px;
+				margin: 0 auto;
+				width: 75%;
+				margin-top: 0.5rem;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				border-bottom: 1px solid gray;
+				display: flex;
+
+				.menu-title {
+					font-size: 1.2rem;
+					color: #666666;
+					width: 120px;
+					text-align: left;
+				}
+
+				.select-box {
+					width: 25%;
+					margin: -0.5rem 0rem 0rem 2rem;
+					cursor: pointer;
+					background-color: #f4f4f4;
+					border-radius: 8px;
+					padding-top: 11px;
+
+					input {
+					}
+				}
+
+				.selected-box {
+					width: 25%;
+					margin: -0.5rem 0rem 0rem 2rem;
+					cursor: pointer;
+					background-color: #3b45ff;
+					border-radius: 8px;
+					padding-top: 11px;
+					color: white;
+				}
+			}
+
+			.final-box {
+				position: relative;
+				display: inline-flex;
+				margin-top: 2rem;
+				.button {
+					width: 100px;
+				}
+			}
+		}
+		.mobile {
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 1039px) {
+		@media only screen and (min-width: 768px) {
+			.task-container {
+				margin: 0 auto;
+				width: 90%;
+				height: 80%;
+				background-color: white;
+				text-align: center;
+
+				.title {
+					text-shadow: rgb(0 0 0 / 40%) 2px 2px 4px;
+					padding-top: 4rem;
+					font-size: 2rem;
+					font-weight: 800;
+				}
+
+				.thumbnail {
+					margin: 0 auto;
+					width: 85%;
+					height: 38%;
+					margin-top: 5rem;
+					overflow: hidden;
+					font-weight: 400;
+
+					.thumb-title1 {
+						position: relative;
+						width: auto;
+						text-align: center;
+						font-size: 2.1rem;
+						padding-top: 7rem;
+						word-break: keep-all;
+					}
+					.thumb-title2 {
+						position: relative;
+						display: inline-block;
+						border-top: 2px solid black;
+						margin-top: 1.5rem;
+						padding-top: 0.5rem;
+						text-align: center;
+						word-break: keep-all;
+						font-size: 1.5rem;
+					}
+					.thumb-title3 {
+						width: auto;
+						padding-bottom: 1rem;
+						position: relative;
+						margin-top: 7rem;
+						text-align: center;
+						font-size: 1.1rem;
+						word-break: keep-all;
+					}
+				}
+
+				.input-box {
+					margin: 0 auto;
+					width: 75%;
+					padding-top: 2.5rem;
+					padding-bottom: 1.5rem;
+					border-bottom: 1px solid gray;
+					input {
+						width: 20%;
+						height: 2rem;
+						border-radius: 8px;
+						margin-right: 1rem;
+					}
+				}
+
+				.setting {
+					height: 40px;
+					margin: 0 auto;
+					width: 75%;
+					margin-top: 0.5rem;
+					padding-top: 1rem;
+					padding-bottom: 1rem;
+					border-bottom: 1px solid gray;
+					display: flex;
+
+					.menu-title {
+						font-size: 1rem;
+						color: #666666;
+						width: 120px;
+						text-align: left;
+					}
+
+					.select-box {
+						font-size: 0.6rem;
+						width: 25%;
+						margin: -0.5rem 0rem 0rem 2rem;
+						cursor: pointer;
+						background-color: #f4f4f4;
+						border-radius: 8px;
+						padding-top: 11px;
+					}
+
+					.selected-box {
+						font-size: 0.6rem;
+						width: 25%;
+						margin: -0.5rem 0rem 0rem 2rem;
+						cursor: pointer;
+						background-color: #3b45ff;
+						border-radius: 8px;
+						padding-top: 11px;
+						color: white;
+					}
+				}
+
+				.final-box {
+					position: relative;
+					display: inline-flex;
+					margin-top: 2rem;
+					.button {
+						width: 100px;
+					}
+				}
+			}
+			.mobile {
+				display: none;
+			}
+		}
+	}
+
+	@media only screen and (max-width: 767.9px) {
+		.task-container {
+			display: none;
+		}
+
+		.mobile {
+			font-size: 1.1rem;
+			text-align: center;
+			font-weight: 800;
+		}
+	}
+}
