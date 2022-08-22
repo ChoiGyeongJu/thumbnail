@@ -11,6 +11,8 @@
 Display Thumbnail List Using **react-slick** (Today, So far)
 ![image](https://user-images.githubusercontent.com/97934158/185907935-d577ebb3-0b69-4e54-83eb-f0a92429b983.png)
 
+<br /><br />
+#
 
 ### Tech Stack
 [Languages] Python, JavaScript
